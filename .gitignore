@@ -1,0 +1,7 @@
+# gitignore
+
+/src/pdfjs
+/src/raw
+
+/node_modules/
+/dist/
