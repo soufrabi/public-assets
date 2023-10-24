@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "rm -rf dist && mkdir -p dist && cp -r src/pdfjs dist/pdfjs && cp -r src/raw dist/pdfjs/web/raw",
+    "predeploy": "rm -rf dist && mkdir -p dist && cp src/CNAME dist/CNAME && cp -r src/pdfjs dist/pdfjs && cp -r src/raw dist/pdfjs/web/raw",
     "deploy": "gh-pages --no-history -d dist"
   },
   "author": "",
